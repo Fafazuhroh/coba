@@ -8,10 +8,10 @@ spec:
   capacity:
     storage: 5Gi
   persistentVolumeReclaimPolicy: Retain
-  storageClassName: csi-gcs-test-sc-1
+  storageClassName: csi-gcs
   csi:
     driver: gcs.csi.ofek.dev
     volumeHandle: csi-gcs
     nodePublishSecretRef:
-      name: csi-gcs-dag-secret
-      namespace: default
+      name: csi-gcs-dags-secret
+      namespace: defaultf

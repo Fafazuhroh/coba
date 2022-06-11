@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: csi-gcs-test-1
+  name: csi-gcs-test-dags
 spec:
   template:
     spec:

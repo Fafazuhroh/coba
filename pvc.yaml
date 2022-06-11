@@ -8,4 +8,4 @@ spec:
   resources:
     requests:
       storage: 5Gi
-  storageClassName: csi-gcs-test-sc-1
+  storageClassName: csi-gcs
