@@ -4,7 +4,7 @@ metadata:
   name: csi-gcs-dags-pv
 spec:
   accessModes:
-  - ReadWriteOnce
+  - ReadWriteMany
   capacity:
     storage: 5Gi
   persistentVolumeReclaimPolicy: Retain
